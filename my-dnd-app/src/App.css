@@ -1,0 +1,24 @@
+/* src/App.css */
+.App {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+h1 {
+  color: #646cff;
+  margin-bottom: 2rem;
+}
+
+/* 컨테이너 내부의 레이아웃 */
+.container-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  background-color: #f0f0f0;
+  padding: 40px;
+  border-radius: 12px;
+}
