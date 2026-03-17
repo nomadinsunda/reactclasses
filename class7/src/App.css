@@ -1,0 +1,65 @@
+/* App.css */
+
+.app.light {
+  background-color: #fefefe;       /* 거의 흰색에 가까운 깨끗한 톤 */
+  color: #1a1a1a;                  /* 완전한 블랙보다 살짝 부드러운 글자색 */
+  transition: all 0.3s ease;
+}
+
+.app.dark {
+  background-color: #121212;       /* 진짜 어두운 회색 (true dark) */
+  color: #f0f0f0;                  /* 아주 밝은 회색 텍스트 */
+  transition: all 0.3s ease;
+}
+
+/* 버튼 공통 스타일 */
+/* 보편적인 회색 계열 버튼 스타일 */
+button {
+  background-color: #6b7280;        /* 중간 회색 (Tailwind gray-500) */
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 500;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #4b5563;        /* 진한 회색 (gray-600) */
+  box-shadow: 0 4px 12px rgba(75, 85, 99, 0.4);
+  transform: translateY(-1px);
+}
+
+button:active {
+  background-color: #374151;        /* 더 어두운 회색 (gray-700) */
+  transform: translateY(0);
+  box-shadow: 0 2px 8px rgba(75, 85, 99, 0.2);
+}
+
+button:focus {
+  outline: none;
+  border-color: #d1d5db;            /* light gray ring */
+  box-shadow: 0 0 0 3px rgba(209, 213, 219, 0.5);  /* focus ring */
+}
+
+/* 버튼 사이 간격 설정 */
+button + button {
+  margin-left: 12px; /* 버튼 사이에만 좌측 간격 */
+}
+
+
+/* 테마별 배경 강조용 박스 */
+.card {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.app.dark .card {
+  background-color: rgba(30, 30, 30, 0.9);
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.05);
+}
