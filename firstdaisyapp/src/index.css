@@ -1,0 +1,4 @@
+/* src/index.css */
+@import "tailwindcss";
+@plugin "daisyui"; /* 👈 반드시 tailwindcss 다음에 위치해야 합니다. */
+
