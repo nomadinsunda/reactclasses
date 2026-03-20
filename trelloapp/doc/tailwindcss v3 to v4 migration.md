@@ -1,6 +1,6 @@
 # tailwindcss v4 migration 전 프로젝트 구조
 
-![tailwindcss v4 변경전 프로젝트 구조](./images/before_migration_trelloapp.png)
+![tailwindcss v4 변경전 프로젝트 구조](../images/before_migration_trelloapp.png)
 
 ---
 
