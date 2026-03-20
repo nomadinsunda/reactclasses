@@ -1,3 +1,6 @@
+
+
+![tailwindcss v4 변경전 프로젝트 구조](https://drive.google.com/file/d/1M6ZKguDo_rBPZobTg8QGPdJMq0bVNsxD/view?usp=drive_link)
 ```
 $ npx @tailwindcss/upgrade@latest
 ≈ tailwindcss v4.2.2
