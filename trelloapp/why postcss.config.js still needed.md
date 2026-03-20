@@ -30,7 +30,7 @@ module.exports = {
 
 ### 어떻게 처리하면 좋을까요?
 
-만약 프로젝트를 **완전한 v4 방식(CSS-first)**으로 정리하고 싶다면 다음 단계를 체크해보세요.
+만약 프로젝트를 **완전한 v4 방식(CSS-first)** 으로 정리하고 싶다면 다음 단계를 체크해보세요.
 
 1.  **Vite를 사용 중인가요?**
     * 그렇다면 `postcss.config.js`를 삭제하고, `vite.config.ts`에 `@tailwindcss/vite` 플러그인을 직접 등록하는 것이 v4의 권장 방식입니다.
