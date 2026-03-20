@@ -1,4 +1,4 @@
-
+# tailwindcss v4 migration 전 프로젝트 구조
 
 ![tailwindcss v4 변경전 프로젝트 구조](./images/before_migration_trelloapp.png)
 
@@ -383,6 +383,8 @@ Tailwind v4 스타일은 보통 더 단순해져서:
 ```
 
 ---
+
+# tailwindcss v4 migration 후 프로젝트 구조
 
 ![tailwindcss v4 변경후 프로젝트 구조](./images/after_migration_trelloapp.png)
 
