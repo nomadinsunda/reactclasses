@@ -1,6 +1,6 @@
 
 
-![tailwindcss v4 변경전 프로젝트 구조](https://drive.google.com/render?id=1M6ZKguDo_rBPZobTg8QGPdJMq0bVNsxD)
+![tailwindcss v4 변경전 프로젝트 구조](./images/before_migration_trelloapp.png)
 
 ```
 $ npx @tailwindcss/upgrade@latest
