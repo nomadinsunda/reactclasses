@@ -384,6 +384,11 @@ Tailwind v4 스타일은 보통 더 단순해져서:
 
 ---
 
+![tailwindcss v4 변경후 프로젝트 구조](./images/after_migration_trelloapp.png)
+
+---
+
+
 ## 주의할 점
 
 이건 단순 버전 업이 아니라 **빌드 체인 전체에 영향**을 줍니다.
