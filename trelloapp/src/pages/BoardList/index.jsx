@@ -47,7 +47,7 @@ const BoardList = ({
     <ListDraggable id={list.uuid} index={index} onMove={onMoveList}>
       <Div
         {...props}
-        className="p-3 m-2 bg-gray-100 rounded-xl shadow-md border border-gray-200 flex-shrink-0"
+        className="p-3 m-2 bg-gray-100 rounded-xl shadow-md border border-gray-200 shrink-0"
         width="18rem">
           
         <div className="flex justify-between mb-2">

@@ -41,7 +41,7 @@ export default function Board() {
             {children}
             
             {/* 2. 리스트 추가 폼: flex-shrink-0을 주어 공간이 부족해도 찌그러지지 않게 함 */}
-            <div className="flex-shrink-0">
+            <div className="shrink-0">
               <CreateListForm onCreateList={onCreateList} />
             </div>
           </ListDroppable>

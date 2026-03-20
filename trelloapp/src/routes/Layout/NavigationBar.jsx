@@ -12,7 +12,7 @@ export default function NavigationBar() {
 
   return (
     // btn, btn-link, btn-active는 daisyUI에서 제공하는 클래스.
-    <div className="flex justify-between shadow-sm bg-base-100">
+    <div className="flex justify-between shadow-xs bg-base-100">
       {/* 왼쪽 메뉴 영역: Home, Board */}
       <div className="flex p-2 navBar">
         <Link to="/" className="btn btn-link">Home</Link>
