@@ -2,6 +2,11 @@
 
 ![tailwindcss v4 변경전 프로젝트 구조](./images/before_migration_trelloapp.png)
 
+---
+
+# tailwindcss v4 migration 수행
+다음 커맨드 라인을 실행시켜서 migration을 수행할 수 있습니다
+
 ```
 $ npx @tailwindcss/upgrade@latest
 ≈ tailwindcss v4.2.2
